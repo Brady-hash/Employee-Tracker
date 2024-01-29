@@ -111,7 +111,7 @@ function addEmployee() {
         (err) => {
           if (err) throw err;
           console.log(`\n ${response.firstName} ${response.lastName} successfully added to database! \n`);
-          start(); // Ensure 'start' function is defined in your scope
+          start(); 
         });
       });
     });
@@ -244,7 +244,7 @@ const addDepartment = () => {
           (err, res) => {
               if (err) throw err;
               console.log(`\n${response.newDept} successfully added to database!\n`);
-              start(); // Ensure that the 'start' function is defined in your scope
+              start();
           }
       );
   });
