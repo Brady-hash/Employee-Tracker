@@ -4,22 +4,22 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "repository": {
-      "type": "git",
-      "url": ""
+        "type": "git",
+        "url": ""
     },
     "author": "Brady-hash",
     "license": "ISC",
     "bugs": {
-      "url": ""
+        "url": ""
     },
     "homepage": "",
     "dependencies": {
-      "console.table": "^0.10.0",
-      "inquirer": "^7.3.3",
-      "mysql": "^2.18.1"
+        "console.table": "^0.10.0",
+        "inquirer": "^7.3.3",
+        "mysql2": "^3.7.1"
     }
-  }
+}
